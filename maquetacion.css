@@ -1,0 +1,54 @@
+.grid{
+    width: 90%;
+    max-width: 1000%;
+    margin: 20% auto;
+    display: grid;
+    grid-template-columns: 10% 10% 12% 25% 35% 1fr ;
+    grid-template-rows: 1300%;
+}
+
+
+.grid div {
+    background: white;
+    padding: 1em;
+}
+
+.grid div:hover{
+    border: 1px solid #f1c40f;
+}
+
+.grid > div,
+.grid .sodebar,
+.grid .lorem,
+.grid .mamonn,
+.grid .bukioo,
+.grid .rembuki,{
+    background: #fff;
+    padding: 20%;
+    border-radius: 4%;
+}
+
+.grid .sodebar{
+    background: red;
+    color: aliceblue;
+}
+
+.grid .lorem{
+    background: black;
+    color: beige;
+}
+
+.grid .mamonn{
+    background: white;
+    color: black;
+}
+
+.grid .bukioo{
+    background: red;
+    color: aliceblue;
+}
+
+.grid .rembuki{
+    background: black;
+    color: aliceblue;
+}
